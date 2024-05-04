@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/profile"
+            android:icon="@drawable/baseline_person_24"
+            android:title="Profile" />
+        <item
+            android:id="@+id/feedback"
+            android:icon="@drawable/feedback"
+            android:title="Feed back" />
+        <item
+            android:id="@+id/fav"
+            android:icon="@drawable/baseline_favorite_24"
+            android:title="Favurites" />
+        <item
+            android:id="@+id/currencylist"
+            android:title="Currency List" />
+    </group>
+
+    <item android:id="@+id/check_Alarm"
+        android:title="">
+        <menu>
+            <item
+                android:id="@+id/alarm"
+                android:icon="@drawable/clock"
+                android:title="Check Alarm"
+                />
+        </menu>
+    </item>
+</menu>
